@@ -113,7 +113,7 @@ public class ThemeOverlayController implements CoreStartable, Dumpable, TunerSer
     protected static final String TAG = "ThemeOverlayController";
     protected static final String OVERLAY_BERRY_BLACK_THEME =
             "com.android.system.theme.black";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static final String PREF_CHROMA_FACTOR ="monet_engine_chroma_factor";
     private static final String PREF_LUMINANCE_FACTOR ="monet_engine_luminance_factor";
