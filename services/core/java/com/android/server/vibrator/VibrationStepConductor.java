@@ -410,7 +410,7 @@ final class VibrationStepConductor implements IBinder.DeathRecipient {
 
     /** Returns true if a cancellation signal was sent via {@link #notifyCancelled}. */
     public boolean wasNotifiedToCancel() {
-        if (Build.IS_DEBUGGABLE) {
+        if (Build.IS_ENG) {
             expectIsVibrationThread(false);
         }
         synchronized (mLock) {

@@ -79,7 +79,7 @@ import java.util.function.Predicate;
  */
 public final class JobStatus {
     private static final String TAG = "JobScheduler.JobStatus";
-    static final boolean DEBUG = JobSchedulerService.DEBUG;
+    static final boolean DEBUG = false;
 
     private static final int NUM_CONSTRAINT_CHANGE_HISTORY = 10;
 
@@ -202,7 +202,7 @@ public final class JobStatus {
     private GrantedUriPermissions uriPerms;
     private boolean prepared;
 
-    static final boolean DEBUG_PREPARE = true;
+    static final boolean DEBUG_PREPARE = false;
     private Throwable unpreparedPoint = null;
 
     /**

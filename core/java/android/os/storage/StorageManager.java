@@ -142,7 +142,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @SystemService(Context.STORAGE_SERVICE)
 public class StorageManager {
     private static final String TAG = "StorageManager";
-    private static final boolean LOCAL_LOGV = Log.isLoggable(TAG, Log.VERBOSE);
+    private static final boolean LOCAL_LOGV = false;
 
     /** {@hide} */
     public static final String PROP_PRIMARY_PHYSICAL = "ro.vold.primary_physical";
